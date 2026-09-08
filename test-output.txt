@@ -1,0 +1,13 @@
+
+> networking-tracker@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.11 C:/dev/networking-tracker
+
+
+ Test Files  1 passed (1)
+      Tests  8 passed (8)
+   Start at  15:26:50
+   Duration  417ms (transform 39ms, setup 0ms, import 174ms, tests 7ms, environment 0ms)
+
