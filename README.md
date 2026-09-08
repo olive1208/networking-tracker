@@ -4,7 +4,7 @@ A small full-stack web app for keeping track of the people you meet at Berkeley 
 
 ## Live demo
 
-- Vercel: `https://<your-project>.vercel.app` (placeholder, replace after deploying)
+- Vercel: https://networking-tracker-lovat-gamma.vercel.app
 
 ## Screenshots
 
@@ -124,7 +124,7 @@ The most recent run is saved in `test-output.txt`.
 1. Push the repository to GitHub.
 2. In Vercel, click Add New Project and import the repository. The Next.js preset is detected automatically.
 3. Under Environment Variables add `NEXT_PUBLIC_NEON_AUTH_URL` and `NEXT_PUBLIC_NEON_DATA_API_URL` with the values from the Neon console. `DATABASE_URL` is not needed at runtime.
-4. Deploy. Then copy the production URL into the Live demo section above.
+4. Deploy with `npx vercel --prod`. The production URL is listed in the Live demo section above.
 5. In the Neon console, make sure the Vercel domain is allowed as a trusted origin for Neon Auth if your project restricts origins.
 
 ## Known limitations and next improvements
