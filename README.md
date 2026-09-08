@@ -8,7 +8,7 @@ A small full-stack web app for keeping track of the people you meet at Berkeley 
 
 ## Screenshots
 
-Screenshots 01 to 09, 11 and 12 were taken on the live Vercel deployment; 10 is the local test run. Files live in `docs/screenshots/`. Each one is embedded in the section it proves; this table is the index.
+Screenshots 01 to 09 and 11 to 13 were taken on the live Vercel deployment; 10 is the local test run. Files live in `docs/screenshots/`. Each one is embedded in the section it proves; this table is the index.
 
 | # | File | What it proves | Shown in |
 | --- | --- | --- | --- |
@@ -24,6 +24,7 @@ Screenshots 01 to 09, 11 and 12 were taken on the live Vercel deployment; 10 is 
 | 10 | `10-npm-test.png` | `npm test` passing, 8 of 8 | [Tests](#tests) |
 | 11 | `11-filter-search.png` | Priority filter and text search applied together | [Features](#features) |
 | 12 | `12-mobile.png` | Mobile viewport with the card layout | [Features](#features) |
+| 13 | `13-sorted.png` | Table sorted by name ascending | [Features](#features) |
 
 ## Features
 
@@ -43,6 +44,10 @@ Screenshots 01 to 09, 11 and 12 were taken on the live Vercel deployment; 10 is 
 ![Contact list filtered to priority medium with the search term "mary", showing one matching row](docs/screenshots/11-filter-search.png)
 
 *Priority filter set to medium and "mary" typed in the search box. The list narrows to the single matching contact; both controls apply together.*
+
+![Contact table sorted by name ascending, with the Name header showing an up arrow](docs/screenshots/13-sorted.png)
+
+*Clicking the Name header sorts the table A to Z, shown by the arrow on the header. Clicking again reverses it; Priority and Added sort the same way.*
 
 ![Mobile viewport at 400px wide showing contacts as stacked cards with a sort-by row](docs/screenshots/12-mobile.png)
 
